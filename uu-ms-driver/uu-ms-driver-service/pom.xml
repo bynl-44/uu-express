@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>icu.uuqk</groupId>
+		<artifactId>uu-ms-driver</artifactId>
+		<version>0.0.1</version>
+		<relativePath/>
+	</parent>
+	<artifactId>uu-ms-driver-service</artifactId>
+	<packaging>jar</packaging>
+
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.2</version>
+				<configuration>
+					<from>
+						<image>docker://eclipse-temurin:17-jre</image>
+					</from>
+					<to>
+						<image>${project.artifactId}:${project.version}</image>
+					</to>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

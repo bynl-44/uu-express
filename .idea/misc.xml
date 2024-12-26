@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FindBugsConfigurable">
+    <option name="make" value="true" />
+    <option name="effort" value="default" />
+    <option name="priority" value="Medium" />
+    <option name="excludeFilter" value="" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/uu-common/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-search/uu-ms-search-api/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-search/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-search/uu-ms-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-base/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-carriage/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-courier/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-dispatch/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-driver/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-oms/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-service-scope/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-track/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-trade/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-transport/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-transport-info/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-user/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-web-courier/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-web-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-web-driver/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-work/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-web-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-base/uu-ms-base-service/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-carriage/uu-ms-carriage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-courier/uu-ms-courier-service/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-dispatch/uu-ms-dispatch-service/pom.xml" />
+        <option value="$PROJECT_DIR$/uu-ms-work/uu-ms-work-service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="23" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SuppressionsComponent">
+    <option name="suppComments" value="[]" />
+  </component>
+</project>
