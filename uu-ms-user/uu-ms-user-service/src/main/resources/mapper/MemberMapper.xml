@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="icu.uuqk.user.mapper.MemberMapper">
+
+    <resultMap id="BaseResultMap" type="icu.uuqk.user.entity.Member">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="auth_id" jdbcType="VARCHAR" property="authId"/>
+        <result column="id_card_no" jdbcType="VARCHAR" property="idCardNo"/>
+        <result column="id_card_no_verify" jdbcType="TINYINT" property="idCardNoVerify"/>
+        <result column="phone" jdbcType="VARCHAR" property="phone"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="avatar" jdbcType="VARCHAR" property="avatar"/>
+        <result column="open_id" jdbcType="VARCHAR" property="openId"/>
+        <result column="sex" jdbcType="TINYINT" property="sex"/>
+        <result column="birthday" jdbcType="VARCHAR" property="birthday"/>
+        <result column="created" jdbcType="TIMESTAMP" property="created"/>
+        <result column="updated" jdbcType="TIMESTAMP" property="updated"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, auth_id, id_card_no, id_card_no_verify, phone, name, avatar,
+        open_id, sex, birthday, created, updated
+    </sql>
+</mapper>
