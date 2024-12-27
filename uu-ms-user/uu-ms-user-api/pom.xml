@@ -11,4 +11,11 @@
 
     <artifactId>uu-ms-user-api</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>icu.uuqk</groupId>
+            <artifactId>uu-ms-user-service</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+    </dependencies>
 </project>
