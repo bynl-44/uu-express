@@ -1,3 +1,7 @@
 .DS_Store
 .idea/
 .vscode/
+target/
+!**/.mvn/
+!**/src/main/**/target/
+!**/src/test/**/target/
