@@ -21,7 +21,7 @@ public class MemberServiceImpl extends ServiceImpl<MemberMapper, Member> impleme
 
     @Override
     public Member getById(Long id) {
-        Optional<Member> optionalMember = Optional.ofNullable(getById(id));
+        Optional<Member> optionalMember = Optional.ofNullable(super.getById(id));
         if (optionalMember.isEmpty()) {
             throw new MemberNotFoundException(MEMBER, "id", id.toString());
         }
