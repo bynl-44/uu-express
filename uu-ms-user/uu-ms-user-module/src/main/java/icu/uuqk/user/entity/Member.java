@@ -5,13 +5,11 @@ import icu.uuqk.common.entity.BaseEntity;
 import icu.uuqk.user.dto.MemberDto;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.experimental.SuperBuilder;
 
 /**
  * 用户表
  */
 @Data
-@SuperBuilder
 @EqualsAndHashCode(callSuper = true)
 @TableName("uu_member")
 public class Member extends BaseEntity {

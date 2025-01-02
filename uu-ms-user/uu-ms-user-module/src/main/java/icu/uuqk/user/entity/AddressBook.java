@@ -5,13 +5,11 @@ import icu.uuqk.common.entity.BaseEntity;
 import icu.uuqk.user.dto.AddressBookDto;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.experimental.SuperBuilder;
 
 /**
  * 地址簿
  */
 @Data
-@SuperBuilder
 @EqualsAndHashCode(callSuper = true)
 @TableName("uu_address_book")
 public class AddressBook extends BaseEntity {
