@@ -8,9 +8,10 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
 
-@Schema(description = "用户API文档")
+@Tag(name = "用户 API", description = "用户相关接口")
 public interface MemberDoc {
 
     @Operation(summary = "创建用户", description = "创建用户")
