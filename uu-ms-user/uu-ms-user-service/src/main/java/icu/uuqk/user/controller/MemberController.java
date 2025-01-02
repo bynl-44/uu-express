@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/member")
 public class MemberController implements MemberDoc {
 
-    private MemberService memberService;
+    private final MemberService memberService;
 
     @Override
     @PostMapping

@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class AddressBookController implements AddressBookDoc {
 
-    private AddressBookService addressBookService;
+    private final AddressBookService addressBookService;
 
     @Override
     @PostMapping
